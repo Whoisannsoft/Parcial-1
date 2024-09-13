@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gestion de Pacientes</title>
+</head>
+<body>
+  <patients-board>
+</style>
+<form id="patient-form">
+
+  <input type="text" placeholder="Nombre" />
+  <input type="text" placeholder="Especie" />
+  <input type="date" placeholder="Fecha" />
+  <input type="text" placeholder="Especie" />
+  <button type="submit">Añadir</button>
+
+  <div>
+    <p>Nombre: <span></span></p>
+    <p>Especie: <span></span></p>
+    <input type="checkbox"> Atendido
+  </div>
+  
+</form>
+<ul id="pending-patients"></ul>
+<ul id="attended-patients"></ul>
+  </patients-board>
+  <script src="src/components/patientBoard/patient.card.js"></script>
+  <script src="src/components/patientsBoard/patients.board.js"></script>
+</body>
+</html>
